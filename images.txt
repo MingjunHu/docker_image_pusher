@@ -29,8 +29,10 @@
 #opensearchproject/opensearch-dashboards:latest
 #myscale/myscaledb:1.6
 
-postgres:15-alpine
-container-registry.oracle.com/database/free:latest
+#postgres:15-alpine
+#container-registry.oracle.com/database/free:latest
+
+milvusdb/milvus:v2.4.6
 
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
